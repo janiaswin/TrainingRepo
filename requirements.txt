@@ -1,6 +1,6 @@
 torch
 numpy
-ptutils
+psutil
 click
 pillow
 scipy
