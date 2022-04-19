@@ -1,4 +1,4 @@
-FROM buster
+FROM python
 
 RUN pip install transformers torch datasets
 
