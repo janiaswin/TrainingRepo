@@ -1,6 +1,6 @@
 FROM python
 
-RUN pip install transformers torch datasets
+RUN pip install transformers torch datasets sentencepiece
 
 WORKDIR /workspace
 
