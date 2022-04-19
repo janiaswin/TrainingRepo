@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.9.12-buster
 
 RUN pip install transformers torch datasets sentencepiece
 
