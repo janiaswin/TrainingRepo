@@ -1,6 +1,6 @@
 FROM python:3.9.6
 
-RUN pip install transformers torch datasets sentencepiece
+RUN pip install transformers torch datasets sentencepiece sklearn
 
 WORKDIR /workspace
 
